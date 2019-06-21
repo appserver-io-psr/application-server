@@ -122,4 +122,11 @@ interface DatabaseConfigurationInterface
      * @return \AppserverIo\Configuration\Interfaces\NodeValueInterface The DB platform
      */
     public function getPlatform();
+
+    /**
+    * Returns the encryption information.
+    *
+    * @return \AppserverIo\Configuration\Interfaces\NodeValueInterface The encryption information
+    */
+    public function getEncryption();
 }
